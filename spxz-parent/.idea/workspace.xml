@@ -5,11 +5,61 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c3d8e99c-2b74-474e-967f-1ce558f5c0c3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/spzx-common/common-service/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spzx-common/common-util/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spzx-common/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spzx-manager/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spzx-model/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db_spzx.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spzx-model/src/main/java/com/pyip/spzx/model/dto/h5/OrderInfoDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spzx-model/src/main/java/com/pyip/spzx/model/dto/h5/ProductSkuDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spzx-model/src/main/java/com/pyip/spzx/model/dto/h5/UserLoginDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spzx-model/src/main/java/com/pyip/spzx/model/dto/h5/UserRegisterDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spzx-model/src/main/java/com/pyip/spzx/model/dto/order/OrderStatisticsDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spzx-model/src/main/java/com/pyip/spzx/model/dto/product/CategoryBrandDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spzx-model/src/main/java/com/pyip/spzx/model/dto/product/ProductDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spzx-model/src/main/java/com/pyip/spzx/model/dto/product/SkuSaleDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spzx-model/src/main/java/com/pyip/spzx/model/dto/system/AssginMenuDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spzx-model/src/main/java/com/pyip/spzx/model/dto/system/AssginRoleDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spzx-model/src/main/java/com/pyip/spzx/model/dto/system/LoginDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spzx-model/src/main/java/com/pyip/spzx/model/dto/system/SysOperLogDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spzx-model/src/main/java/com/pyip/spzx/model/dto/system/SysRoleDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spzx-model/src/main/java/com/pyip/spzx/model/dto/system/SysUserDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spzx-model/src/main/java/com/pyip/spzx/model/entity/base/BaseEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spzx-model/src/main/java/com/pyip/spzx/model/entity/base/ProductUnit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spzx-model/src/main/java/com/pyip/spzx/model/entity/base/Region.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spzx-model/src/main/java/com/pyip/spzx/model/entity/h5/CartInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spzx-model/src/main/java/com/pyip/spzx/model/entity/order/OrderInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spzx-model/src/main/java/com/pyip/spzx/model/entity/order/OrderItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spzx-model/src/main/java/com/pyip/spzx/model/entity/order/OrderLog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spzx-model/src/main/java/com/pyip/spzx/model/entity/order/OrderStatistics.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spzx-model/src/main/java/com/pyip/spzx/model/entity/pay/PaymentInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spzx-model/src/main/java/com/pyip/spzx/model/entity/product/Brand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spzx-model/src/main/java/com/pyip/spzx/model/entity/product/Category.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spzx-model/src/main/java/com/pyip/spzx/model/entity/product/CategoryBrand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spzx-model/src/main/java/com/pyip/spzx/model/entity/product/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spzx-model/src/main/java/com/pyip/spzx/model/entity/product/ProductDetails.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spzx-model/src/main/java/com/pyip/spzx/model/entity/product/ProductSku.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spzx-model/src/main/java/com/pyip/spzx/model/entity/product/ProductSpec.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spzx-model/src/main/java/com/pyip/spzx/model/entity/system/SysMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spzx-model/src/main/java/com/pyip/spzx/model/entity/system/SysOperLog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spzx-model/src/main/java/com/pyip/spzx/model/entity/system/SysRole.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spzx-model/src/main/java/com/pyip/spzx/model/entity/system/SysRoleUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spzx-model/src/main/java/com/pyip/spzx/model/entity/system/SysUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spzx-model/src/main/java/com/pyip/spzx/model/entity/user/UserAddress.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spzx-model/src/main/java/com/pyip/spzx/model/entity/user/UserInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spzx-model/src/main/java/com/pyip/spzx/model/vo/common/Result.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spzx-model/src/main/java/com/pyip/spzx/model/vo/common/ResultCodeEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spzx-model/src/main/java/com/pyip/spzx/model/vo/common/ViewContentType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spzx-model/src/main/java/com/pyip/spzx/model/vo/h5/IndexVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spzx-model/src/main/java/com/pyip/spzx/model/vo/h5/ProductItemVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spzx-model/src/main/java/com/pyip/spzx/model/vo/h5/TradeVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spzx-model/src/main/java/com/pyip/spzx/model/vo/h5/UserInfoVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spzx-model/src/main/java/com/pyip/spzx/model/vo/order/OrderStatisticsVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spzx-model/src/main/java/com/pyip/spzx/model/vo/product/CategoryExcelVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spzx-model/src/main/java/com/pyip/spzx/model/vo/system/LoginVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spzx-model/src/main/java/com/pyip/spzx/model/vo/system/SysMenuVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spzx-model/src/main/java/com/pyip/spzx/model/vo/system/ValidateCodeVo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spzx-common/common-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spzx-common/common-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spzx-common/common-util/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spzx-common/common-util/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,15 +78,24 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="RunConfigurationTargetLRU" value="dff1a8a7-72ca-4dc8-bc06-f16deab51e9e" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/spzx-model" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\myProgram\java\spzxProject\spzxProject\spxz-parent" />
+      <recent name="D:\myProgram\java\spzxProject\spzxProject\spxz-parent\spzx-model\src\main\java\com\pyip\spzx\model" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
@@ -52,6 +111,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="db_spzx.sql" type="DatabaseScript" editBeforeRun="true" temporary="true" nameIsGenerated="true">
+      <script-file value="$PROJECT_DIR$/db_spzx.sql" />
+      <script-mode>FILE</script-mode>
+      <data-source id="dff1a8a7-72ca-4dc8-bc06-f16deab51e9e" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Database Script.db_spzx.sql" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -62,7 +132,7 @@
       <option name="presentableId" value="Default" />
       <updated>1717810402406</updated>
       <workItem from="1717810404097" duration="194000" />
-      <workItem from="1717810615222" duration="801000" />
+      <workItem from="1717810615222" duration="2756000" />
     </task>
     <servers />
   </component>
